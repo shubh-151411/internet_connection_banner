@@ -1,0 +1,25 @@
+name: internet_connection_banner
+description: A lightweight, customizable banner that slides in when the internet drops and confirms when it is back. Works with any state management.
+version: 0.1.0
+repository: https://github.com/shubh-151411/internet_connection_banner
+issue_tracker: https://github.com/shubh-151411/internet_connection_banner/issues
+topics:
+  - connectivity
+  - network
+  - offline
+  - banner
+  - widget
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ">=6.0.0 <8.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0

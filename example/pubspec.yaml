@@ -1,0 +1,10 @@
+name: internet_connection_banner_example
+description: Demo of internet_connection_banner.
+publish_to: none
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  internet_connection_banner:
+    path: ../
