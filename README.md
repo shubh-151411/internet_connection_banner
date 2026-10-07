@@ -4,6 +4,10 @@ A tiny Flutter package that shows a non-blocking banner at the top of your app
 when the internet drops, and a short "Back online" confirmation when it returns
 (the pattern used by PhonePe, Paytm, LinkedIn).
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shubh-151411/internet_connection_banner/main/doc/demo.gif" alt="internet_connection_banner demo" width="300">
+</p>
+
 - Floats over your UI in a `Stack`, ignores touches, never shifts layout
 - Fully customizable: config options, your own banner widget, your own animation
 - Slide + fade animations, pulsing offline icon, animated check on restore
